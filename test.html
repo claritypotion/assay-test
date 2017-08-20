@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="test-data.js"></script>
+<script src="test-app.js"></script>
+
+<div style="width: 800px; margin: 0 auto;">
+<div style="font-family: Hack; float: right;text-align: right">
+  <div>Правильных подряд: <span id="successCounter" style="color:green"></span></div>
+  <div>Неправильных: <span id="errorCounter" style="color:red"></span></div>
+</div>
+<form style="font-family: Hack;">
+  <div id="question"></div>
+  <div id="error" style="display:none; color:red">Неправильно!</div>
+  <div id="success" style="display:none; color:green">Правильно!</div>
+  <div style="margin-top: 15px">
+   <select id="input" onChange="onSubmit()" type="button" value="Проверить"></select>
+  </div>
+</form>
+</div>
