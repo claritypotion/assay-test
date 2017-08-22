@@ -31,7 +31,6 @@ const data = [
     'Progesterone',
     'Prolactin',
     'SHBG',
-    'Testosterone',
     'Procalcitonin2',
     'Syphilis',
     'Vancomycin',
